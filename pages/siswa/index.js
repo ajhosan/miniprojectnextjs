@@ -39,7 +39,7 @@ export default function SiswaPage({ data }) {
                     const currentId = params.row.namaSiswa;
 
                     router.push(
-                        '/siswa/' + namaSiswa
+                        '/siswa/' + currentId
                     )
                     // return alert(JSON.stringify(currentId))
                 }
